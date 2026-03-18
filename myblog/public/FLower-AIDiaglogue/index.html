@@ -29,16 +29,18 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://lucialab.cn/FLower-AIDiaglogue/image-20260312213544978.png">
 <meta property="article:published_time" content="2026-03-12T12:30:26.000Z">
-<meta property="article:modified_time" content="2026-03-13T03:28:34.018Z">
+<meta property="article:modified_time" content="2026-03-18T11:33:15.645Z">
 <meta property="article:author" content="Lucia">
 <meta property="article:tag" content="技术解析">
 <meta property="article:tag" content="AI">
+<meta property="article:tag" content="unity">
+<meta property="article:tag" content="c#">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://lucialab.cn/FLower-AIDiaglogue/image-20260312213544978.png">
   
   
   
-  <meta name="keywords" content="技术解析,AI">
+  <meta name="keywords" content="技术解析,AI,unity,c#">
 
   <!-- feed -->
   
@@ -50,7 +52,7 @@
 
   
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Lucia","sameAs":[]},"dateCreated":"2026-03-12T20:30:26+08:00","dateModified":"2026-03-13T11:28:34+08:00","datePublished":"2026-03-12T20:30:26+08:00","description":"AI对话实现思路及实现过程详解","headline":"Unity内置AI对话","mainEntityOfPage":{"@type":"WebPage","@id":"http://lucialab.cn/FLower-AIDiaglogue/"},"publisher":{"@type":"Organization","name":"Lucia","sameAs":[]},"url":"http://lucialab.cn/FLower-AIDiaglogue/","keywords":"技术解析, AI","thumbnailUrl":"/FLower-AIDiaglogue/image-20260312201303201.png","image":1}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Lucia","sameAs":[]},"dateCreated":"2026-03-12T20:30:26+08:00","dateModified":"2026-03-18T19:33:15+08:00","datePublished":"2026-03-12T20:30:26+08:00","description":"AI对话实现思路及实现过程详解","headline":"Unity内置AI对话","mainEntityOfPage":{"@type":"WebPage","@id":"http://lucialab.cn/FLower-AIDiaglogue/"},"publisher":{"@type":"Organization","name":"Lucia","sameAs":[]},"url":"http://lucialab.cn/FLower-AIDiaglogue/","keywords":"技术解析, AI, unity, c#","thumbnailUrl":"/FLower-AIDiaglogue/image-20260312201303201.png","image":1}</script>
   
 </head>
 <body>
@@ -69,7 +71,7 @@
 
 
 
-<widget class="widget-wrapper recent post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/art/"><span class="title">建筑设计图纸</span></a><a class="item title" href="/architect/"><span class="title">建筑手绘图纸</span></a><a class="item title" href="/FLower-AIDiaglogue/"><span class="title">Unity内置AI对话</span></a><a class="item title" href="/Flower-Introduce/"><span class="title">花园小屋</span></a></div></widget>
+<widget class="widget-wrapper recent post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/pacman/"><span class="title">奶茶品牌合作吃豆人项目</span></a><a class="item title" href="/flowerSeries/"><span class="title">花园小屋系列作品</span></a><a class="item title" href="/GameJam-Cheat/"><span class="title">地府重生也要考试作弊？！</span></a><a class="item title" href="/GameJam-Light/"><span class="title">寻迹拾光</span></a><a class="item title" href="/Flower-Introduce/"><span class="title">花园小屋</span></a><a class="item title" href="/FLower-AIDiaglogue/"><span class="title">Unity内置AI对话</span></a><a class="item title" href="/art/"><span class="title">建筑设计图纸</span></a><a class="item title" href="/architect/"><span class="title">建筑手绘图纸</span></a></div></widget>
 </div>
 
 </div></aside><div class="l_main" id="main">
@@ -82,7 +84,7 @@
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E9%AA%8C%E5%AE%A4/">技术实验室</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2026-03-12T12:30:26.000Z">2026-03-12</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2026-03-13T03:28:34.018Z">2026-03-13</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2026-03-12T12:30:26.000Z">2026-03-12</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2026-03-18T11:33:15.645Z">2026-03-18</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -137,7 +139,7 @@
 
 </div>
 
-<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">较新文章</div><a href="/architect/">建筑手绘图纸</a></div><div class="item" id="next"><div class="note">较早文章</div><a href="/Flower-Introduce/">花园小屋</a></div></section></div>
+<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">较新文章</div><a href="/architect/">建筑手绘图纸</a></div><div class="item" id="next"><div class="note">较早文章</div><a href="/flowerSeries/">花园小屋系列作品</a></div></section></div>
 
 
 
