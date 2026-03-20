@@ -20,7 +20,7 @@ cover: /GameJam-Cheat/image-20260318210125773.png
 **目标平台**：PC / Android
 **开发职责**：程序 + 策划
 
-**视频展示链接**：http://xhslink.com/o/4joKwtSUNVh
+**视频展示链接**：http://xhslink.com/o/6NpvSS7fYxS
 
 {% endbox %}
 
