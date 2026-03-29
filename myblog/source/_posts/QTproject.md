@@ -7,7 +7,7 @@ tags:
   - C++
 categories:
   - 项目介绍
-excerpt: 该项目基于Qt开发的一款地震波数据显示器
+excerpt: 该项目是基于Qt开发的一款地震波数据显示器
 cover: /QTproject/image-20260320172701163.png
 ---
 
